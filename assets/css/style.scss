@@ -275,33 +275,34 @@ body {
             margin-bottom: 70px;
         }
         div.swiper-container {
-            ul.works_lists {
-                display: flex;
-                justify-content: center;
-                flex-wrap: nowrap;
-                margin-bottom: 90px;
+            max-width: 1020px;
+            width: 80%;
+            margin: 0 auto 90px;
+            div.swiper-wrapper {
                 width: 100%;
-                li.works_outer {
-                    border: 1px solid #DDDDDD;
-                    border-radius: 8px;
-                    margin: 0 25px;
-                    img {
-                        width: 100%;
-                    }
-                    div {
-                        padding: 25px 20px 30px;
-                        h3 {
-                            line-height: 1.5;
-                            margin-bottom: 30px;
+                div.swiper-slide {
+                    padding: 0 30px;
+                    div.swiper-slide-inner {
+                        border: 1px solid #DDDDDD;
+                        border-radius: 8px;
+                        img {
+                            width: 100%;
                         }
-                        ul {
-                            li {
-                                display: block;
-                                margin-bottom: 10px;
+                        div {
+                            padding: 25px 18px 35px;
+                            h3 {}
+                            ul {
+                                li {}
                             }
                         }
                     }
                 }
+            }
+            .swiper-button-prev {
+                margin-left: 20px;
+            }
+            .swiper-button-next {
+                margin-right: 20px;
             }
         }
     }

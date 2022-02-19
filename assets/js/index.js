@@ -1,27 +1,30 @@
-var swiper = new Swiper('.swiper-container', {
-    // ここからはオプションです。
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
+var mySwiper = new Swiper('.swiper-container', {
     loop: true,
-    autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-    },
+    freeMode: false,
+    slidesPerView: 1,
     breakpoints: {
-        slidesPerView: 1,
-        // 820px以上の場合
+        // 768px以上の場合
         820: {
             slidesPerView: 3,
         },
-        // 1200px以上の場合
-        1280: {
-            slidesPerView: 6,
-        }
-    }
-});
 
+        1200: {
+            slidesPerView: 3,
+        }
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true
+    },
+    autoplay: {
+        delay: 5000,
+    },
+});
 AOS.init();
 
 $(function() {

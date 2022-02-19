@@ -293,39 +293,24 @@
   section.works div.sub_title {
     margin-bottom: 70px;
   }
-  section.works div.swiper-container ul.works_lists {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+  section.works div.swiper-container {
     margin-bottom: 90px;
   }
-  section.works div.swiper-container ul.works_lists li.works_outer {
-    border: 1px solid #DDDDDD;
-    border-radius: 8px;
-    margin: 0 25px;
-    width: 320px !important;
-  }
-  section.works div.swiper-container ul.works_lists li.works_outer img {
+  section.works div.swiper-container div.swiper-wrapper {
     width: 100%;
   }
-  section.works div.swiper-container ul.works_lists li.works_outer div {
-    padding: 25px 20px 30px;
+  section.works div.swiper-container div.swiper-wrapper div.swiper-slide {
+    padding: 0 10px;
   }
-  section.works div.swiper-container ul.works_lists li.works_outer div h3 {
-    line-height: 1.5;
-    margin-bottom: 30px;
+  section.works div.swiper-container div.swiper-wrapper div.swiper-slide div.swiper-slide-inner {
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
   }
-  section.works div.swiper-container ul.works_lists li.works_outer div ul li {
-    display: block;
-    margin-bottom: 10px;
+  section.works div.swiper-container div.swiper-wrapper div.swiper-slide div.swiper-slide-inner img {
+    width: 100%;
   }
-  section.works div.swiper-container ul.works_lists li.swiper-slide {
-    width: 320px;
+  section.works div.swiper-container div.swiper-wrapper div.swiper-slide div.swiper-slide-inner div {
+    padding: 25px 18px 35px;
   }
   section.contacts {
     text-align: center;
